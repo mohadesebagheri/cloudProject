@@ -24,17 +24,9 @@
 در تمامی سرویس ها token چک می شود.
 
 ## Authentication service
-در این سرویس کاربر نام کاربری خود را با کلید username در body درخواست به صورت form data قرار می دهد.
+در این سرویس کاربر نام کاربری خود را با کلید username در body درخواست به صورت form data قرار می دهدودر پاسخ توکن را دریافت میکند.
 
 `POST /api/user/sign_in/`
-
-#### example:
-
-body:
-
-username:mohadese
-
-respose:
 
 
 
