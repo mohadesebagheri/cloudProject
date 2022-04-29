@@ -15,12 +15,9 @@
  سرویس های authentication و analysis به شدت به سرویس game وابسته بودند و این موضوع باعث شد تا نمودار ها را از درخواست های اصلی جدا کنیم. 
  برای گرفتن پاسخ از بقیه سرویس ها لازم تا token ای به آن ها داده شود که این خود نشان دهنده وابستگی بقیه سرویس ها به سرویس authentication است.
  
- ![image](https://user-images.githubusercontent.com/46274547/165891059-ba880fc6-a8ae-4252-813f-c49815487e69.png)
+![image](https://user-images.githubusercontent.com/46274547/166003550-fbaac073-ef0d-4047-99e7-a04570d16319.png)
 
-
-![image](https://user-images.githubusercontent.com/46274547/165891122-2a2458be-596c-4387-9911-a59351fa62cc.png)
-
-
+![image](https://user-images.githubusercontent.com/46274547/166003800-184fd1eb-9825-44e3-801e-57000230a4ec.png)
 
 در تمامی سرویس ها token چک می شود.
 
