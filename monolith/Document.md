@@ -19,3 +19,59 @@
 
 ![image](https://user-images.githubusercontent.com/46274547/165891122-2a2458be-596c-4387-9911-a59351fa62cc.png)
 
+
+
+در تمامی سرویس ها token چک می شود.
+
+## Authentication service
+در این سرویس کاربر نام کاربری خود را با کلید username در body درخواست به صورت form data قرار می دهد.
+
+`POST /api/user/sign_in/`
+
+#### example:
+
+body:
+
+username:mohadese
+
+respose:
+
+
+
+## Game service
+
+در این سرویس اطلاعات مربوط به بازی قرار دارد.
+
+
+`GET /api/data_sales/search_by_platform/<paltform>/<pk>`
+
+با استفاده از این api میتوان با اسم platform در بازی ها جستجو کرد و اطلاعات بازی ها را گرفت.
+
+
+
+`GET /api/data_sales/search_by_rank/<rank>`
+
+در این  api میتوان اطلاعات تمامی بازی هایی که rank آن ها برابر با رنک داده شده است گرفت.
+
+
+`GET /api/data_sales/search_by_year/<year>/<pk>`
+
+با استفاده از این api می توان تمامی بازی هایی که در سال خاصی منتشر شده اند را گرفت.
+
+
+`GET /api/data_sales/search_by_genre/<genre>/<pk>`
+
+با استفاده از این api میتوان تمامی بازی در ژانر خاصی را گرفت.
+
+
+`GET /api/data_sales/all_data/`
+
+با استفاده از این api میتوان تمامی بازی ها را گرفت.
+
+
+## Analysis service
+
+`/api/analyse_sales/compare_game/chart/<name>/<name>`
+
+این api اسم دو بازی مختلف را میگیرد و با استفاده از اسم آن ها را مقایسه کرد و نموداری در قالب html درست می کند.
+
