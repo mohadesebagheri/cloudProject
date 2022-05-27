@@ -84,4 +84,3 @@ class ComparePublisherByYearChartData(APIView):
             "default": default_items,
         }
         return Response(data)
->>>>>>> main

@@ -50,4 +50,3 @@ class CompareSaleByYearChartData(APIView):
             "colors": colors
         }
         return Response(data)
->>>>>>> main

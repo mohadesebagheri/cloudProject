@@ -58,4 +58,3 @@ class CompareGenreByYearChartData(APIView):
             "label": label
         }
         return Response(data)
->>>>>>> main

@@ -9,6 +9,7 @@ from django.views.generic import View
 import json
 import random
 
+
 class CompareGamesView(View):
     permission_classes = (IsAuthenticated,)
 
@@ -65,3 +66,15 @@ class CompareGamesChartData(APIView):
             "default": default_items,
         }
         return Response(data)
+    
+class compareGamesInAPeriodOfTime:
+    def get(self, request, number):
+        data = None
+        if(number == 1):
+            data =1
+        elif(number == 2):
+            data = 2
+        elif(number == 3):
+            data = 3
+        return Response(data)
+
